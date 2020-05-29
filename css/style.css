@@ -1,0 +1,141 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width:100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+}
+
+.ptext1{
+	position:relative;
+	bottom:300px;
+	left:50px;
+	background:#ffffff;
+	width:250px;
+	height:80px;
+	text-align: center;
+}
+.pimg1{
+	position:relative;
+	width:100%;
+	min-height:1000px;
+	background-image: url("../images/img.jpg");
+}
+.section-one{
+position: relative;
+bottom:200px;
+align-content: center;
+background:#8ccbbe;
+width:100%;
+height:300px;
+line-height: 2.5;
+padding:50px 80px;
+letter-spacing: 1px;
+font-weight: 8px;
+background:#000000;
+color: #ffff;
+
+}
+.pimg2{
+	position: relative;
+	width:100%;
+	top:-200px;
+	min-height:700px;
+	background-image: url("../images/img3.jpg");
+	
+
+}
+
+.ptext2{
+	position:relative;
+	bottom:1000px;
+	left:60%;
+	background:#000000;
+	width:200px;
+	height:100px;
+	text-align: center;
+	color:#ffffff;
+}
+.section-two{
+position: relative;
+bottom:310px;
+align-content: center;
+background:#000000;
+color: #ffff;
+width:100%;
+height:250px;
+line-height: 2.5;
+padding:50px 80px ;
+letter-spacing: 2px;
+opacity: 1.4;
+font-weight: 8px;
+}
+.pimg3{
+	position:relative;
+	bottom:310px;
+	min-height:800px;
+	background-image: url("../images/im2.jpg");
+}
+.section-three{
+position: relative;
+bottom:310px;
+align-content: center;
+background:#000000;
+color: #ffff;
+width:100%;
+height:250px;
+line-height: 2.5;
+padding:50px 80px ;
+letter-spacing: 2px;
+opacity: 1.4;
+font-weight: 8px;
+}
+.pimg4{
+	position:relative;
+	bottom:310px;
+	width:100%;
+	min-height:1000px;
+	background-image: url("../images/img.jpg");
+}
+.ptext4{
+	position:relative;
+	bottom:0px;
+	left:10%;
+	background:#000000;
+	width:400px;
+	height:100px;
+	text-align: center;
+	color:#ffffff;
+}
